@@ -1,6 +1,6 @@
 process.stdout.write('hello from spinner1.js... \rheyyy\n');
 
-setTimeout(() => {
+setTimeout(() => { //start of the spinning line animation
   process.stdout.write('\r|   ');
 }, 100);
 
